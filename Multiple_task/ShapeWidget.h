@@ -12,8 +12,10 @@ public:
     void setPenWidth(int width);
     void setBorderColor(const QColor &color);
     void setFillColor(const QColor &color);
+
 protected:
     void paintEvent(QPaintEvent *event) override;
+
 private:
     QString shapeType;
     int penWidth;
